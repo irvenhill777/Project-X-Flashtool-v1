@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "electron": "electron .",
-    "dist": "electron-builder"
+    "dist": "electron-builder --publish never"
   },
   "devDependencies": {
     "electron": "^31.7.4",
