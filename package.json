@@ -1,8 +1,18 @@
 {
+  "name": "project-x-flashtool-v1",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Project X Flashtool v1",
+  "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "electron": "electron .",
     "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.7.4",
+    "electron-builder": "^24.13.0",
+    "vite": "^5.4.10"
   }
 }
