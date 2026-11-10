@@ -1,0 +1,26 @@
+appId: com.projectx.flashtool
+
+productName: Project X Flashtool v1
+
+directories:
+  output: release
+
+files:
+  - dist/**
+  - dist-electron/**
+  - platform-tools/**
+
+win:
+  target:
+    - nsis
+
+linux:
+  target:
+    - AppImage
+    - deb
+
+mac:
+  target:
+    - dmg
+
+artifactName: "${productName}-${version}-${os}.${ext}"
