@@ -3,7 +3,6 @@
     "dev": "vite",
     "build": "vite build",
     "electron": "electron .",
-    "dist": "electron-builder",
-    "lint": "echo lint"
+    "dist": "electron-builder"
   }
 }
