@@ -10,6 +10,8 @@ files:
   - dist-electron/**
   - platform-tools/**
 
+artifactName: "${productName}-${version}-${os}.${ext}"
+
 win:
   target:
     - nsis
@@ -22,5 +24,3 @@ linux:
 mac:
   target:
     - dmg
-
-artifactName: "${productName}-${version}-${os}.${ext}"
