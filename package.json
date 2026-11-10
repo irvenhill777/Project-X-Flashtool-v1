@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Project X Flashtool v1",
+  "author": {
+    "name": "irvenhill777",
+    "email": "irvenhill777@gmail.com"
+  },
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
